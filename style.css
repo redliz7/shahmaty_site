@@ -17,7 +17,7 @@ a,
 button {
   text-decoration: none;
   font-weight: bold;
-  color: #804428;
+  color: #a7532b;
   cursor: url('cursor/pointer.png'), default;
 }
 #preloader {
@@ -228,7 +228,8 @@ button {
   background-image: linear-gradient(to top, #fff, transparent);
 }
 #photo .photo__frame {
-  width: 550px;
+  width: 533px;
+  margin: 0 30px;
 }
 #photo .photo__frame img {
   width: 550px;
@@ -436,7 +437,7 @@ button {
   margin-left: 10px;
   border-radius: 50%;
   background: #fff;
-  border: 2px solid #804428;
+  border: 2px solid #a7532b;
   display: inline-block;
   position: relative;
 }
@@ -444,7 +445,7 @@ button {
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: #804428;
+  background: #a7532b;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -481,7 +482,7 @@ button {
 }
 #modal .modal__content .modal__contact .contact__form input[type='submit'] {
   padding: 12px 20px;
-  background: #804428;
+  background: #a7532b;
   font-family: 'Rubik Mono One', cursive;
   font-weight: 400;
   color: #fff;
@@ -498,7 +499,7 @@ button {
 }
 #modal .modal__content .modal__contact .contact__social h4 {
   margin: 0;
-  color: #804428;
+  color: #a7532b;
   cursor: url('cursor/pointer.png'), default;
 }
 .wrap {
@@ -507,7 +508,7 @@ button {
 .button__buy {
   width: 150px;
   padding: 12px 20px;
-  background: #804428;
+  background: #a7532b;
   font-family: 'Rubik Mono One', cursive;
   font-weight: 400;
   color: #fff;
