@@ -185,7 +185,7 @@ button {
 }
 #about .about__air .air__money {
   height: 100px;
-  transform: translate(-350px, 150px);
+  transform: translate(-380px, 150px);
 }
 #about .about__air .air__bag {
   height: 120px;
@@ -193,7 +193,7 @@ button {
 }
 #about .about__air .air__hat {
   height: 130px;
-  transform: translate(500px, 80px);
+  transform: translate(420px, 80px);
 }
 #photo {
   margin-top: 50px;
@@ -369,6 +369,34 @@ button {
 }
 #delivery .air__right p {
   transform: rotate(25deg) translate(110px, -275px);
+}
+#outreach {
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+#outreach .outreach__title {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #aaa;
+}
+#outreach .outreach__list {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+}
+#outreach .outreach__list .outreach__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 0 15px;
+}
+#outreach .outreach__list .outreach__name {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
 }
 #modal {
   position: fixed;
@@ -563,6 +591,9 @@ img {
   }
   #delivery .delivery__air {
     display: none;
+  }
+  #outreach .outreach__list {
+    justify-content: flex-start;
   }
   #modal .modal__content {
     margin: 30px;
