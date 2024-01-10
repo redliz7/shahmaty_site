@@ -1,5 +1,5 @@
 <?php
-require_once("../../config/config.php");
+require_once("../../../config/config.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['name'], $_POST['phone'], $_POST['town'], $_POST['post'], $_POST['payment'], $_POST['service'], $_POST['price'], $_POST['title'])) {
