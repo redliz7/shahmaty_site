@@ -5,7 +5,7 @@
     </FilesMatch>
 
     # Установка заголовка Cache-Control для кэширования на стороне клиента
-    <FilesMatch "\.(html|htm|js|css)$">
+        <FilesMatch "\.(html|htm|js|css|png|jpg|jpeg|gif|xml|webp)$">
         # Включение ETag и Last-Modified
         FileETag MTime Size
         Header set Cache-Control "public, max-age=86400"
