@@ -125,7 +125,7 @@
             loading="lazy"
             alt="показати"
           />
-          <p>тут можеш обрати шахи іншого розміру: «30х30» або «38х38»</p>
+          <p>тут можеш обрати шахи іншого розміру: «30х30см» або «34х34см»</p>
         </div>
       </section>
       <section id="about" itemscope itemtype="http://schema.org/Thing">
@@ -190,7 +190,7 @@
             itemtype="http://schema.org/ListItem"
           >
             <li
-              class="photo__item"
+              class="photo__item active"
               itemprop="item"
               itemscope
               itemtype="http://schema.org/ImageObject"
@@ -235,19 +235,27 @@
               <meta itemprop="name" content="вигляд" />
             </li>
           </ol>
-          <div class="photo__frame">
-            <img
-              src="image/image-v2_big_uk2.webp"
-              width="550"
-              height="413"
-              loading="lazy"
-              alt="фото гри"
-            />
+          <div class="photo__wrap">
+            <div class="photo__frame">
+              <img
+                src="image/image-v2_big_uk2.webp"
+                width="550"
+                height="413"
+                loading="lazy"
+                class="active"
+                alt="фото гри"
+              />
+            </div>
+            <div class="photo__control">
+              <button class="photo__arrow-back"></button
+              ><button class="photo__arrow-next"></button>
+            </div>
           </div>
+
           <div class="photo__content">
             <h3>В Наявності</h3>
             <ul>
-              <span>–– Шахи Дерев яні ––</span>
+              <li>–– Шахи Дерев яні ––</li>
               <li>– розмір у відкритому вигляді: 52х52см</li>
               <li>– нарди шашки шахи</li>
               <li>– дерев яні шахові фігури</li>

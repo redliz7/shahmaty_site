@@ -191,7 +191,7 @@
             itemtype="http://schema.org/ListItem"
           >
             <li
-              class="photo__item"
+              class="photo__item active"
               itemprop="item"
               itemscope
               itemtype="http://schema.org/ImageObject"
@@ -236,19 +236,26 @@
               <meta itemprop="name" content="вигляд" />
             </li>
           </ol>
-          <div class="photo__frame">
-            <img
-              src="image/image-v2_big_uk.webp"
-              width="550"
-              height="418"
-              loading="lazy"
-              alt="фото гри"
-            />
+          <div class="photo__wrap">
+            <div class="photo__frame">
+              <img
+                src="image/image-v2_big_uk.webp"
+                width="550"
+                height="418"
+                loading="lazy"
+                class="active"
+                alt="фото гри"
+              />
+            </div>
+            <div class="photo__control">
+              <button class="photo__arrow-back"></button
+              ><button class="photo__arrow-next"></button>
+            </div>
           </div>
           <div class="photo__content">
             <h3>В Наявності:</h3>
             <ul>
-              <span>–– Шахмати Дерев яні ––</span>
+              <li>–– Шахмати Дерев яні ––</li>
               <li>- шахова дошка розміром 30х30см</li>
               <li>- дерев яні фігури для шахмат</li>
               <li>– пластикові фігури для шашок</li>

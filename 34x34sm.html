@@ -192,7 +192,7 @@
             itemtype="http://schema.org/ListItem"
           >
             <li
-              class="photo__item"
+              class="photo__item active"
               itemprop="item"
               itemscope
               itemtype="http://schema.org/ImageObject"
@@ -200,7 +200,7 @@
               <img
                 src="image/image-v2_mini_1_ru.webp"
                 width="170"
-                height="126"
+                height="128"
                 loading="lazy"
                 alt="шахматы"
               />
@@ -215,7 +215,7 @@
               <img
                 src="image/image-v2_mini_2_ru.webp"
                 width="170"
-                height="126"
+                height="128"
                 loading="lazy"
                 alt="сложеные шахматы"
               />
@@ -230,26 +230,33 @@
               <img
                 src="image/image-v2_mini_3_ru.webp"
                 width="170"
-                height="126"
+                height="128"
                 loading="lazy"
                 alt="Разложенные шахматы"
               />
               <meta itemprop="name" content="вигляд" />
             </li>
           </ol>
-          <div class="photo__frame">
-            <img
-              src="image/image-v2_big_ru.webp"
-              width="550"
-              height="413"
-              loading="lazy"
-              alt="фото игры"
-            />
+          <div class="photo__wrap">
+            <div class="photo__frame">
+              <img
+                src="image/image-v2_big_1_ru.webp"
+                width="550"
+                height="413"
+                loading="lazy"
+                class="active"
+                alt="фото игры"
+              />
+            </div>
+            <div class="photo__control">
+              <button class="photo__arrow-back"></button
+              ><button class="photo__arrow-next"></button>
+            </div>
           </div>
           <div class="photo__content">
             <h3>В Наличии</h3>
             <ul>
-              <span>–– Деревянные Шахматы ––</span>
+              <li>–– Деревянные Шахматы ––</li>
               <li>- размер шахматной доски 34x34см</li>
               <li>– шахи, шашки, нарды</li>
               <li>- деревянные шахматные фигуры</li>
