@@ -234,6 +234,7 @@ button {
 
 #photo .photo__list {
   position: relative;
+  padding: 0;
   width: 170px;
   height: 400px;
   cursor: url('cursor/pointer.png'), default;
@@ -269,7 +270,9 @@ button {
 }
 #photo .photo__frame {
   position: relative;
-  width: 533px;
+  display: flex;
+  justify-content: center;
+  width: 600px;
   margin: 0 30px;
 }
 @keyframes fadeIn {
@@ -302,16 +305,12 @@ button {
 .photo__arrow-next {
   display: flex;
   justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  padding: 10px 15px;
 
-  color: #fff;
   font-size: 18px;
-  padding: 10px 15px;
   border: none;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 48px;
+
   cursor: url('cursor/pointer.png'), default;
   outline: none;
 }
@@ -319,16 +318,18 @@ button {
 .photo__arrow-back {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 2%;
   transform: rotateY(-50%);
   background: url(gallery/arrow_back_60px.png) center no-repeat;
+  background-color: #fff;
 }
 .photo__arrow-next {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 2%;
   transform: rotateY(-50%);
   background: url(gallery/arrow_forward_60px.png) center no-repeat;
+  background-color: #fff;
 }
 
 .photo__arrow-back:active,
@@ -629,7 +630,7 @@ img {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 635px) {
   .photo__arrow-back {
     left: 10%;
   }
@@ -638,11 +639,20 @@ img {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 500px) {
   .photo__arrow-back {
     left: 15%;
   }
   .photo__arrow-next {
     right: 15%;
+  }
+}
+
+@media (max-width: 450px) {
+  .photo__arrow-back {
+    left: 20%;
+  }
+  .photo__arrow-next {
+    right: 20%;
   }
 }
