@@ -120,7 +120,16 @@ button {
   font-weight: 700;
   text-align: center;
 }
-#promo .promo__price {
+#promo .promo__price .price__old {
+  margin-left: 10px;
+  margin-bottom: -8px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  text-decoration: line-through;
+  color: #bb352c;
+}
+#promo .promo__price .price__new {
   display: flex;
   align-items: flex-start;
 }
@@ -236,10 +245,16 @@ button {
   position: relative;
   padding: 0;
   width: 170px;
-  height: 400px;
+  height: 460px;
   cursor: url('cursor/pointer.png'), default;
   overflow: hidden;
   overflow-y: scroll;
+}
+#photo .photo__content p,
+#photo .photo__content ul {
+  font-family: Caveat, cursive;
+  font-size: 24px;
+  margin-top: 0;
 }
 #photo .photo__list img {
   width: 170px;
